@@ -59,7 +59,7 @@ if (isSSL == "true") {
     connectDB()
         .then(() => {
             // Start HTTP server
-            httpServer.listen(process.env.httpPORT || 8000, () => {
+            httpServer.listen(process.env.httpPORT || 8001, () => {
                 console.log(
                     `⚙️  HTTP Server is running at port : ${process.env.httpPORT}`
                 );
