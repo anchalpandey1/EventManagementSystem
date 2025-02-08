@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { createEvent,getEventsByUserId ,getAllEvents ,updateEvent, 
-    deleteEvent } from "../controllers/Event.controller.js";
+    deleteEvent } from "../controllers/event.controller.js";
+    
 import upload from "../utils/multer.js";
 import { validateRequestBody } from "../middlewares/validation.middleware.js";
 
